@@ -1,0 +1,13 @@
+body{
+    background: #212529;
+    color: #f8f9fa;
+}
+
+#myForm{
+    min-height: 65vh;
+}
+
+.footer {
+    padding: 0.25em 0;
+    text-align: center;
+}

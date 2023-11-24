@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Map Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/add.css">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <a href="index.html" class="h1 d-block text-decoration-none">Add New Map</a>
+        <form id="myForm">
+            <div class="mb-3">
+                <label for="mapTitle" class="form-label">Map Title</label>
+                <input type="text" class="form-control" id="mapTitle" placeholder="Enter the name of the barangay, city or municipality">
+            </div>
+            <div class="mb-3">
+                <label for="mapImage" class="form-label">Insert Map</label>
+                <input class="form-control" type="file" id="mapImage">
+                <small class="form-text text-muted">Upload an image of the map.</small>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <div class="row justify-content-center">
+            <div class="col-6 text-center">
+              <!-- Your horizontally centered object (Back button) -->
+              <a href="administrator.html" class="btn btn-warning btn-lg btn-block">Back</a>
+            </div>
+          </div>
+        <div class="footer">
+                <p>&copy; <span id="currentYear"></span> Developed by WRUS Staff. All Rights Reserved.</p>
+        </div>
+    </div>
+
+    
+    <script src="script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="form.js"></script>
+</body>
+
+</html>

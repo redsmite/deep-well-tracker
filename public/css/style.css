@@ -10,7 +10,10 @@ body{
     margin: 0 0.1em;
 }
 
-#content-map{
+#imageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
         height: 70vh;
         background-color: #54B4D3;
         line-height: 70vh;
@@ -21,4 +24,11 @@ body{
 .footer {
     padding: 0.25em 0;
     text-align: center;
+}
+
+.image-item{
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 100%;
 }
